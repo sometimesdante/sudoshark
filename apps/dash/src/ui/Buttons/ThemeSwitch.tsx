@@ -15,9 +15,11 @@ export const ThemeSwitch = () => {
   }
 
   return (
-    <span onClick={() => setTheme(theme === "dark" ? "light" : "dark")}>
-      <a>Switch Theme</a>
-      {/* {theme === "light" ? "Light" : "Dark"} */}
+    <span
+      className="cursor-pointer select-none"
+      onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+    >
+      <p>Theme ({theme === "light" ? "Light" : "Dark"})</p>
     </span>
   );
 };
