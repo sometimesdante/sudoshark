@@ -1,9 +1,0 @@
-export default function Home() {
-  return (
-    <main className="w-full ml-64 mt-12">
-      <h1 className="text-4xl mb-2">
-        <b>Hello, friend!</b>
-      </h1>
-    </main>
-  );
-}

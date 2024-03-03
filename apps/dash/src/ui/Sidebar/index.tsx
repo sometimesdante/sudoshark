@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { ThemeSwitch } from "@/ui/Buttons/ThemeSwitch";
+import { ThemeSwitch } from "@/ui/Components/ThemeSwitch";
+import { UserButton } from "@clerk/nextjs";
 
 export default function Sidebar() {
   return (
@@ -13,12 +14,12 @@ export default function Sidebar() {
             <Link href="https://www.sudoshark.com/help" target="_blank">
               Support
             </Link>
-            <Link href="/settings">Settings</Link>
+            <Link href="/billing">Billing</Link>
           </div>
           <div className="flex flex-col gap-4">
             <ThemeSwitch />
-            <Link href="/billing">Billing</Link>
-            <Link href="/">Logout</Link>
+            <Link href="/settings">Settings</Link>
+            <UserButton />
           </div>
         </div>
       </div>
