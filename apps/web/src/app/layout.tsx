@@ -4,7 +4,7 @@ import Header from "@/ui/Header";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "sudoShark | The only dX focused hosting you will ever need",
+  title: "SudoShark",
   description: "The only dX focused hosting you will ever need",
 };
 

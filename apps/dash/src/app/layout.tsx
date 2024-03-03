@@ -5,7 +5,7 @@ import { ClerkProvider } from "@clerk/nextjs";
 
 export const metadata: Metadata = {
   title: "SudoShark",
-  description: "",
+  description: "The only dX focused hosting you will ever need",
 };
 
 export default function RootLayout({
@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en">
-        <body className="w-full h-screen flex prose lg:prose-xl">
+        <body className="w-full h-screen flex prose lg:prose-xl bg-canvas-light dark:bg-canvas-dark">
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
             {children}
           </ThemeProvider>
