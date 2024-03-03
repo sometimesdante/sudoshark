@@ -1,0 +1,23 @@
+//Importing Style Guides, to modify go-to 'styles/_variables.scss'
+@import "@/styles/_variables.scss";
+
+//Importing mixins, to modify breakpoints go-to 'styles/_mixins.scss'
+@import "@/styles/_mixins.scss";
+
+.button {
+  box-shadow: -6px 6px #134a43;
+
+  @apply px-4 py-2 bg-teal-400 rounded-md;
+  p,
+  a {
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    @apply text-white;
+  }
+}
+
+.button:active {
+  box-shadow: -2px 2px #134a43;
+
+  @apply duration-150 ease-in-out;
+}

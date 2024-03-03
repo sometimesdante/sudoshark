@@ -1,0 +1,19 @@
+// Breakpoints
+
+@mixin for-phone-up {
+  @media (min-width: 641px) {
+    @content;
+  }
+}
+
+@mixin for-laptop-up {
+  @media (min-width: 1025px) {
+    @content;
+  }
+}
+
+@mixin for-desktop-up {
+  @media (min-width: 1921px) {
+    @content;
+  }
+}

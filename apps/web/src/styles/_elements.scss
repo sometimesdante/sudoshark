@@ -1,0 +1,15 @@
+.button {
+  box-shadow: -6px 6px #134a43;
+
+  @apply px-4 py-2 bg-teal-400 rounded-md;
+  p,
+  a {
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    @apply text-white;
+  }
+}
+
+.calendar-container {
+  width: 1200px;
+}

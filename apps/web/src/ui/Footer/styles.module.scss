@@ -1,0 +1,25 @@
+//Importing Style Guides, to modify go-to 'styles/_variables.scss'
+@import "@/styles/_variables.scss";
+
+//Importing mixins, to modify breakpoints go-to 'styles/_mixins.scss'
+@import "@/styles/_mixins.scss";
+
+.footer {
+  z-index: 100;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  background-color: $color-canvas;
+  // max-width: 1560px;
+
+  @apply flex justify-between items-center;
+
+  padding: 0em 1em;
+  @include for-phone-up {
+    padding: 0em 2em;
+  }
+  @include for-desktop-up {
+    padding: 0em 4em;
+  }
+}

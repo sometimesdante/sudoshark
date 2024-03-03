@@ -1,0 +1,49 @@
+//Typography
+@import url("https://use.typekit.net/jxx1tjx.css");
+@import "@/styles/_variables.scss";
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: mono45-headline, monospace;
+  font-weight: 300;
+  font-style: normal;
+  color: $color-text-primary;
+  b {
+    font-family: mono45-headline, monospace;
+    font-weight: 700;
+    font-style: normal;
+  }
+}
+
+p,
+a {
+  font-family: dunbar-tall, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.125rem;
+  letter-spacing: 0.02em;
+  color: $color-text-secondary;
+  b {
+    font-family: dunbar-tall, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+}
+
+.logo {
+  font-family: mono45-headline, monospace;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 0.06em;
+  color: $color-brand-secondary;
+
+  @apply text-3xl underline underline-offset-4 decoration-4 decoration-black hover:-skew-y-2 duration-100 ease-in;
+}
+
+.links {
+  @apply underline underline-offset-4 decoration-4 decoration-teal-800 hover:decoration-teal-400 duration-100 ease-in;
+}
