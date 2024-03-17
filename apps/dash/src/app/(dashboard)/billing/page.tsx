@@ -1,9 +1,14 @@
 export default function Billing() {
   return (
-    <main className="w-full ml-64 mt-12">
-      <h1 className="text-4xl mb-2">
-        <b>Billing</b>
-      </h1>
+    <main className="w-full m-12">
+      <div>
+        <h1 className="text-4xl ml-4">
+          <b>Billing</b>
+        </h1>
+      </div>
+      <div className="w-full shadow-md p-4 my-12">
+        <h2 className="text-2xl">smush-web</h2>
+      </div>
     </main>
   );
 }

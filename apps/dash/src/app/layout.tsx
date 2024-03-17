@@ -18,7 +18,7 @@ export default function RootLayout({
       <html lang="en">
         <body className="w-full h-screen flex prose lg:prose-xl bg-canvas-light dark:bg-canvas-dark">
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-            {children}
+            <div>{children}</div>
           </ThemeProvider>
         </body>
       </html>

@@ -7,7 +7,7 @@ import Hero from "@/public/SudoShark.svg";
 export default function Sidebar() {
   return (
     <>
-      <div className="fixed h-full bg-canvas-alt-light dark:bg-canvas-alt-dark px-8 py-12 shadow-xl">
+      <div className="h-screen bg-canvas-alt-light dark:bg-canvas-alt-dark px-8 py-12 shadow-xl whitespace-nowrap">
         <div className="flex flex-col h-full justify-between gap-4">
           <div className="flex flex-col gap-2">
             <Link href="/">

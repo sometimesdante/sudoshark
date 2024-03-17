@@ -10,10 +10,27 @@ export default function Home() {
   }
 
   return (
-    <main className="w-full ml-64 mt-12">
-      <h1 className="text-4xl mb-2">
-        <b>Hello, {user.firstName}!</b>
-      </h1>
+    <main className="w-full m-12">
+      <div className="w-full shadow-md p-4 mb-12">
+        <h2 className="text-2xl">Uptime monitor</h2>
+      </div>
+      <div>
+        <h1 className="text-4xl ml-4">
+          <b>Hello, {user.firstName}!</b>
+        </h1>
+      </div>
+      <div className="w-full shadow-md p-4 my-12">
+        <h2 className="text-2xl">Analytics</h2>
+      </div>
+      <div className="w-full shadow-md p-4 my-12">
+        <h2 className="text-2xl">Usage Report</h2>
+      </div>
+      <div className="w-full shadow-md p-4 my-12">
+        <h2 className="text-2xl">Add Service</h2>
+      </div>
+      <div className="w-full shadow-md p-4 my-12">
+        <h2 className="text-2xl">Support</h2>
+      </div>
     </main>
   );
 }
