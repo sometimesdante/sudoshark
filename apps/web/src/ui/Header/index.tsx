@@ -22,7 +22,7 @@ export default function Header() {
           Help
         </Link>
         <button className="button ml-4">
-          <Link href="/login">SIGN UP</Link>
+          <Link href="https://dash.sudoshark.com/sign-up">SIGN UP</Link>
         </button>
       </span>
     </div>
